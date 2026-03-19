@@ -43,7 +43,7 @@ Drop the snippet directly into your `index.html`.
 Add the snippet to your `footer` partial or layout file.
 ```html
 <div id="webring"></div>
-<script src="[https://ringring.rajatdahal.com.np/webring.js](https://ringring.rajatdahal.com.np/webring.js)"></script>
+<script src="https://ringring.rajatdahal.com.np/webring.js"></script>
 ```
 
 #### 3. React / Next.js
