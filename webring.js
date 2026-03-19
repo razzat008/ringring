@@ -64,25 +64,34 @@
           align-items: center;
           gap: 16px;
           padding: 10px 20px;
-          border: 1px solid rgba(128, 128, 128, 0.3);
+          border: 1px solid rgba(128, 128, 128, 0.5);
           border-radius: 6px;
           font-size: 14px;
           transition: all 0.2s ease;
-          opacity: 0.8;
+          opacity: 1.0;
           color: inherit;
         }
         @media (prefers-color-scheme: dark) {
-          .container { color: #e8e8e0; border-color: rgba(255, 255, 255, 0.1); }
-        }
-        @media (prefers-color-scheme: light) {
-          .container { color: #1a1a18; border-color: rgba(0, 0, 0, 0.1); }
-        }
+            .container { 
+              color: #e8e8e0; 
+              background: #151515; 
+              border-color: #333; 
+            }
+          }
+          @media (prefers-color-scheme: light) {
+            .container { 
+              color: #1a1a18; 
+              background: #ffffff; 
+              border-color: #ddd; 
+              box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+          }
         .container:hover {
           opacity: 1;
           border-color: var(--accent);
           background: rgba(200, 240, 96, 0.05);
         }
-        a { color: inherit; text-decoration: none; transition: color 0.2s; }
+        a { color: inherit; text-decoration: none; transition: color 0.2s; font-weight: 500; }
         a:hover { color: var(--accent); }
         .sep { width: 1px; height: 12px; background: currentColor; opacity: 0.2; }
         .ring-name { font-weight: 600; text-transform: lowercase; font-size: 13px; letter-spacing: 0.05em; opacity: 0.5; }
