@@ -25,7 +25,7 @@ Why??\
 4. **Submit a Pull Request**. Our GitHub Action will automatically validate your JSON.
 
    ***Note: Widget should look something like this in your site:***
-   ![Widget](assets/widget.png)
+   ![Widget](assets/widget1.png)
 ---
 
 ## Adding the Widget
