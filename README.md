@@ -1,3 +1,4 @@
+[![Validate Webring](https://github.com/razzat008/ringring/actions/workflows/validate.yml/badge.svg)](https://github.com/razzat008/ringring/actions/workflows/validate.yml)
 # 🕸️ ringring
 
 A minimalist, deterministic daily-shuffling webring. The order of sites resets
